@@ -1,0 +1,171 @@
+/*
+Common
+****************************/
+html, 
+body {
+  height: fit-content;
+  background-color: #fff9f9;
+}
+
+.content { 
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+/*
+Post
+****************************/
+
+
+.post_form {
+    padding: 30px 40px;
+    border-bottom: 2px solid #ccc;  
+}
+
+.content .app_icon {
+    border: 0px;
+    width: 15%;
+    background: #e6fef7;
+    border-radius: 50vw;
+    margin-bottom: 10px;
+    padding: 10px;
+}   
+
+.post_form input {
+    width: 60%;
+    margin-bottom: 10px;
+    padding: 6px;
+    border: 1px solid #ccc;
+}
+
+.post_form textarea {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.posts ul {
+    padding: 0;
+}
+
+.posts li {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 40px;
+  position: relative;
+  list-style: none;
+  }
+
+.posts li .menu_icon {
+    width: 20px; 
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.posts li .menu {  
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 40%;
+}
+
+.posts li .menu a {
+    text-decoration: none;
+}
+
+
+.posts li .logo {
+    flex-basis: 15%;
+}
+
+.posts li .logo img {
+    width: 60%;
+}
+
+.posts li .name_body {
+    flex-basis: 85%;
+}
+
+
+
+.posts li .name_body .name {
+    font-weight: bold;
+}
+
+.posts li .name_body .datetime {
+    color: gray;
+}
+
+img.post-border {
+        width: 90%;
+        border-radius: 15px;
+        margin-bottom: 16px;
+}
+
+@media screen and (max-width: 500px) {
+  .posts li .name_body .name {
+    font-size: 18px;
+  }
+}
+
+.logodiv{
+    display: flex;
+    padding-left: 6%;
+    gap: 3%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2%;
+}
+ input[type="submit"]{
+    width: 20%;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: large;
+ }
+ .butns a{
+    text-decoration: none;
+ }
+ button{
+    width: 20%;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: large;
+ }
+
+ .like-btn { 
+    display: flex;
+    position: absolute;
+    bottom: 8px;
+    left: 41vw;
+    border: 0px solid #ccc;
+    padding: 0px 2px;
+    font-size: 13px;
+    border-radius: 36%;
+    width: 2vw;
+}
+
+.nav_head{
+    display: flex;
+}
+
+.nav_head .home {
+    margin-left: 3vw;
+}
+
+.like_button img{
+    width: 25px;
+    padding-right: 13px;
+    padding-top: 12px;
+}
+
+.like_button{
+    display: flex;
+}
