@@ -5,7 +5,7 @@
         <h1>Edit</h1>
     </div>
     <section class="post_form">
-        <form action="/edit/{{post.id}}/" method="POST" enctype="multipart/form-data">
+        <form action="/edit/{{post.id}}/" method="POST" enctype="multipart/form-data" class="forms2">
             {% csrf_token %}
             <input type="text" name="name" value="{{post.name}}" required>
             <input type="text" name="body" value="{{post.body}}">
